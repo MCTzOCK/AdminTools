@@ -1,0 +1,9 @@
+name: AdminTools
+version: ${project.version}
+main: net.craftions.admin.AdminTools
+api-version: 1.15
+load: STARTUP
+commands:
+  admin:
+    usage: /<command>
+    permission: craftions.admin.tools
