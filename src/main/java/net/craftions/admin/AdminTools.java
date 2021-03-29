@@ -15,7 +15,7 @@ public final class AdminTools extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         plugin=this;
-        getCommand("admin").setExecutor(new AdminCommand());
+        getCommand("admintools").setExecutor(new AdminCommand());
         Bukkit.getPluginManager().registerEvents(new PlayerEvent(), this);
     }
 
