@@ -4,6 +4,6 @@ main: net.craftions.admin.AdminTools
 api-version: 1.15
 load: STARTUP
 commands:
-  admin:
+  admintools:
     usage: /<command>
     permission: craftions.admin.tools
